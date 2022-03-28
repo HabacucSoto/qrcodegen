@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo', sans-serif;
+}
+
+body {
+    background: url(bgvectorr.svg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (max-width: 700px){
+    body{
+        background: #fff;
+    }
+}
+
